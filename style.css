@@ -149,18 +149,24 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px;
 }
-.logos{
-    border-top:rgba(255, 255, 255, 0.10);;
-    border-bottom:rgba(255, 255, 255, 0.10);;
+.borderdasds{
+    border: none !important;
+    border-top:1px solid rgba(255, 255, 255, 0.10) !important;
+    border-bottom:1px solid rgba(255, 255, 255, 0.10) !important;
+    
+}
+
+
+/* .logos{
+    border-top:rgba(255, 255, 255, 0.10);
+    border-bottom:rgba(255, 255, 255, 0.10);
     padding: 32px 0px;
     gap: 44px;
     width: 100%;
     margin-top: 60px;
     align-items: center;
-}
-.logoos{
-    width: 119px;
-}
+} */
+
 .h5{
     color: var(--green, #16FCD2);
 
@@ -505,7 +511,6 @@ flex-shrink: 0;
 }
 .h61{
     color: #FFF;
-
 /* Section Title */
 font-size: 30px;
 font-family: Noto Sans;
